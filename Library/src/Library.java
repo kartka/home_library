@@ -17,7 +17,7 @@ public class Library {
 		String publishingHouse= book.nextLine();
 		
 		System.out.print("Date of publication: ");
-		String dateOfPublication= book.nextLine();
+		int dateOfPublication= book.nextInt();
 		
 		System.out.print("Literary genre: ");
 		String literaryGenre= book.nextLine();
