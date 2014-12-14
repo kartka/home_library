@@ -1,0 +1,36 @@
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+class Library {
+	
+		public static void main(String[] args){
+			
+			Scanner take = new Scanner(System.in);
+			
+			System.out.print("Title: ");			
+			String title= take.nextLine();
+
+			System.out.print("Author's name: ");
+			String authorsName= take.nextLine();
+			
+			System.out.print("Author's surname: ");
+			String authorsSurname= take.nextLine();
+			
+			System.out.print("Publishing house: ");
+			String publishingHouse= take.nextLine();
+			
+			System.out.print("Literary genre: ");
+			String literaryGenre= take.nextLine();
+			
+			System.out.print("Date of publication: ");
+			int dateOfPublication= take.nextInt();
+			
+				
+			List <Book> library = new ArrayList <Book>();
+		
+		library.add(new Book(title, authorsName, authorsSurname, publishingHouse, literaryGenre, dateOfPublication));
+		
+		for (int i = 0; i < library.size(); i++) {
+			System.out.println(library.get(i));
+		}
