@@ -24,7 +24,7 @@ public class Book {
 		Scanner take = new Scanner(System.in);
 		
 		System.out.print("Title: ");
-		String title= take.nextLine();
+		String title= taje.nextLine();
 
 		System.out.print("Author's name: ");
 		String authorsName= take.nextLine();
