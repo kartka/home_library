@@ -1,0 +1,28 @@
+import java.util.ArrayList;
+import java.util.List;
+
+public class Library2 {
+	
+public static void main(String [] args){
+	
+		
+		List <Book> biblioteczka = new ArrayList <Book>();
+		
+		Book title = (Book) biblioteczka.get(0);       //przypisuję elementy listy zmiennym pobranym przez książkę
+		Book authorsName = (Book) biblioteczka. get(1);
+		Book authorsSurname = (Book) biblioteczka. get(2);
+		Book publishingHouse = (Book) biblioteczka. get(3);
+		Book literaryGenre = (Book) biblioteczka. get(4);
+		Book dateOfPublication = (Book) biblioteczka. get(5);
+		
+		biblioteczka.add((Book(title, authorsName, authorsSurname, publishingHouse, literaryGenre, dateOfPublication))); // wszystko podkreślone i nie wiem, jak to zrobić, żeby działało,
+																														                                                       //przecież konstruktory są w klasie książka :( 
+		
+		
+		for (int i= 0; i< biblioteczka.size(); i++){          
+			System.out.println(biblioteczka);
+		}
+
+
+}
+}
