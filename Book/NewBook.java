@@ -44,7 +44,8 @@ public class Book {
 		Book book = new Book(title, authorsName, authorsSurname, publishingHouse, literaryGenre, dateOfPublication);
 		
 		System.out.println("\n"+ "Title: "+ title + "\n" + "Author's name: " + authorsName + "\n" + "Author's surname: " + authorsSurname + "\n" + "Publishing house: " + publishingHouse + "\n" + "Literary genre: " + literaryGenre + "\n"+ "Date of publication: " + dateOfPublication);
-			
+		
+		take.close();	
 	}
 	
 }
